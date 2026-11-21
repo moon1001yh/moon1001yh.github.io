@@ -4,7 +4,7 @@ const languageButtons = document.querySelectorAll(".lang-button");
 
 const translations = {
   ko: {
-    navHome: "Home", navLinks: "Links", navAbout: "About",
+    navHome: "Home", navLinks: "Links", navAbout: "About", navContact: "Contact",
     welcome: "저의 우주에 오신 것을 환영합니다",
     hello: "안녕하세요,", suffix: "입니다!",
     intro: "대한민국에서 종합 게임 유튜버 활동을 하고 있습니다!",
@@ -24,7 +24,7 @@ const translations = {
     footer: "여기에 뭐 쓸지 추천 좀."
   },
   en: {
-    navHome: "Home", navLinks: "Links", navAbout: "About",
+    navHome: "Home", navLinks: "Links", navAbout: "About", navContact: "Contact",
     welcome: "WELCOME TO MY SPACE",
     hello: "Hello, I'm", suffix: "!",
     intro: "I'm a gaming YouTuber from South Korea.",
