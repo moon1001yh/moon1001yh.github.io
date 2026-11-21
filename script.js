@@ -20,6 +20,7 @@ const translations = {
     fnfText: "얼불춤 이전 저의 유튜브 메인 컨텐츠였습니다! 제 캐릭터가 등장하는 모드를 제작중이...지만 거의 중단된 상태입니다 :(",
     otherGreeting: "다른 활동",
     otherText: "가끔씩 마인크래프트, 언더테일, 산나비를 플레이합니다.",
+    contactGreeting: "moon1001sans@gmail.com",
     footer: "여기에 뭐 쓸지 추천 좀."
   },
   en: {
@@ -30,7 +31,7 @@ const translations = {
     learnMore: "Learn more", findOnline: "FIND ME ONLINE",
     linksIntro: "Visit my online spaces through the links below.",
     youtubeDesc: "★MOON★ (@Moon1001YH)", cosmopediaDesc: "My Cosmopedia Page", tufDesc: "My TUF Profile", steamDesc: "My Steam Profile", chzzkDesc: "Live Streaming (Also on YouTube!)",
-    otherLinks: "Other Links", aboutEyebrow: "A LITTLE ABOUT ME",
+    otherLinks: "Other Links", aboutEyebrow: "MY INFO",
     aboutGreeting: "Hello! I'm <strong>★MOON★</strong>!",
     aboutText: "I'm a gaming YouTuber since January 23, 2022! Nowadays I'm playing a rhythm game called 'A Dance of Fire and Ice' as my main content.",
     adofaiGreeting: "<strong>A Dance of Fire and Ice</strong>",
@@ -39,6 +40,7 @@ const translations = {
     fnfText: "It's my former main content! I'm making a mod where my character appears. ( but maybe it't halted :( )",
     otherGreeting: "Other Activities",
     otherText: "I play Minecraft, Undertale, or SANABI sometimes.",
+    contactGreeting: "moon1001sans@gmail.com",
     footer: "IDK which things to write here."
   }
 };
