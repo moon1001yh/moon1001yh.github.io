@@ -26,7 +26,7 @@ const translations = {
     youtubeDesc: "★MOON★ (@Moon1001YH)", cosmopediaDesc: "My Cosmopedia Page", tufDesc: "My TUF Profile", steamDesc: "My Steam Profile", chzzkDesc: "Live Streaming (Also on YouTube!)",
     otherLinks: "Other Links", aboutEyebrow: "A LITTLE ABOUT ME",
     aboutGreeting: "Hello! I'm <strong>★MOON★</strong>!",
-    aboutText: "I'm a gaming YouTuber since January 23, 2022! Now my main content is a rhythm game called 'A Dance of Fire and Ice'.",
+    aboutText: "I'm a gaming YouTuber since January 23, 2022! Nowadays I'm playing a rhythm game called 'A Dance of Fire and Ice' as my main content.",
     tag1: "# YouTuber", tag2: "# ADOFAI", tag3: "# FNF", footer: "IDK which things to write here."
   }
 };
