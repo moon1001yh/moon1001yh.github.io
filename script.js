@@ -21,7 +21,7 @@ const translations = {
     otherGreeting: "다른 활동",
     otherText: "가끔씩 마인크래프트, 언더테일, 산나비를 플레이합니다.",
     contactGreeting: "moon1001sans@gmail.com",
-    footer: "여기에 뭐 쓸지 추천 좀."
+    footer: "Artworks by 시금치."
   },
   en: {
     navHome: "Home", navLinks: "Links", navAbout: "About", navContact: "Contact",
@@ -41,7 +41,7 @@ const translations = {
     otherGreeting: "Other Activities",
     otherText: "I play Minecraft, Undertale, or SANABI sometimes.",
     contactGreeting: "moon1001sans@gmail.com",
-    footer: "IDK which things to write here."
+    footer: "Artworks by spinach."
   }
 };
 
