@@ -5,29 +5,29 @@ const languageButtons = document.querySelectorAll(".lang-button");
 const translations = {
   ko: {
     navHome: "Home", navLinks: "Links", navAbout: "About",
-    welcome: "나의 공간에 오신 것을 환영합니다",
-    hello: "안녕하세요,", suffix: "입니다.",
-    intro: "관심 있는 것을 탐구하고, 새로운 것을 만들어 갑니다.",
+    welcome: "저의 우주에 오신 것을 환영합니다",
+    hello: "안녕하세요,", suffix: "입니다!",
+    intro: "대한민국에서 종합 게임 유튜버 활동을 하고 있습니다!",
     learnMore: "더 알아보기", findOnline: "온라인에서 만나요",
-    linksIntro: "아래 링크를 통해 저의 온라인 공간을 방문할 수 있어요.",
-    githubDesc: "프로젝트와 코드", instagramDesc: "사진과 일상", youtubeDesc: "영상과 다양한 콘텐츠",
-    otherLinks: "Other Links", aboutEyebrow: "나에 대해 조금 더",
-    aboutGreeting: "안녕하세요! 저는 <strong>홍길동</strong>입니다.",
-    aboutText: "이곳에 자신을 소개하는 글을 작성해 보세요. 관심 분야, 좋아하는 활동, 배우고 있는 기술, 앞으로 도전하고 싶은 목표 등을 적으면 좋습니다.",
-    tag1: "# 관심분야", tag2: "# 공부", tag3: "# 만들기", footer: "호기심으로 만들었습니다."
+    linksIntro: "아래 링크를 통해 저를 만나보실 수 있습니다!",
+    youtubeDesc: "★MOON★ (@Moon1001YH)", cosmopediaDesc: "코스모피디아 페이지", tufDesc: "TUF 프로필", steamDesc: "스팀 프로필", chzzkDesc: "실시간 스트리밍 (유튜브 동시송출)",
+    otherLinks: "Other Links", aboutEyebrow: "자기소개",
+    aboutGreeting: "안녕하세요! 종합 게임 유튜버 <strong>★MOON★</strong>입니다!",
+    aboutText: "저는 2022년 1월 23일부터 종합 게임 유튜버로서 활동중입니다! 현재는 A Dance of Fire and Ice라는 리듬 게임을 주 컨텐츠로 삼고 있습니다.",
+    tag1: "# 유튜버", tag2: "# 얼불춤", tag3: "# 프나펑", footer: "여기에 뭐 쓸지 추천 좀."
   },
   en: {
     navHome: "Home", navLinks: "Links", navAbout: "About",
     welcome: "WELCOME TO MY SPACE",
-    hello: "Hello, I'm", suffix: ".",
-    intro: "I explore what interests me and create new things.",
+    hello: "Hello, I'm", suffix: "!",
+    intro: "I'm a gaming YouTuber from South Korea.",
     learnMore: "Learn more", findOnline: "FIND ME ONLINE",
     linksIntro: "Visit my online spaces through the links below.",
-    githubDesc: "Projects & code", instagramDesc: "Photos & moments", youtubeDesc: "Videos & more",
+    youtubeDesc: "★MOON★ (@Moon1001YH)", cosmopediaDesc: "My Cosmopedia Page", tufDesc: "My TUF Profile", steamDesc: "My Steam Profile", chzzkDesc: "Live Streaming (Also on YouTube!)",
     otherLinks: "Other Links", aboutEyebrow: "A LITTLE ABOUT ME",
-    aboutGreeting: "Hello! I'm <strong>Hong Gil-dong</strong>.",
-    aboutText: "Write a short introduction here. You can share your interests, favorite activities, skills you're learning, and goals you'd like to pursue.",
-    tag1: "# Interests", tag2: "# Learning", tag3: "# Creating", footer: "Made with curiosity."
+    aboutGreeting: "Hello! I'm <strong>★MOON★</strong>!",
+    aboutText: "I'm a gaming YouTuber since January 23, 2022! Now my main content is a rhythm game called 'A Dance of Fire and Ice'.",
+    tag1: "# YouTuber", tag2: "# ADOFAI", tag3: "# FNF", footer: "IDK which things to write here."
   }
 };
 
