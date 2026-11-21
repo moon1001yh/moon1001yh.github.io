@@ -54,7 +54,7 @@ h2 { margin: 0; font-size: clamp(2.5rem, 7vw, 4rem); letter-spacing: -.06em; }
 .about-card strong { color: var(--accent); }
 .adofai-card { max-width: 600px; margin: 30px auto 0; padding: 28px; text-align: left; line-height: 1.9; color: var(--muted); border: 1px solid var(--line); border-radius: 20px; background: var(--panel); backdrop-filter: blur(14px); }
 .adofai-card p:first-child { color: var(--text); font-size: 1.12rem; }
-.adofai-card strong { color: var(--accent); }
+.adofai-card strong { color: transparent; background: text linear-gradient(to right, #F15A49, #5B85C7); }
 .fnf-card { max-width: 600px; margin: 30px auto 0; padding: 28px; text-align: left; line-height: 1.9; color: var(--muted); border: 1px solid var(--line); border-radius: 20px; background: var(--panel); backdrop-filter: blur(14px); }
 .fnf-card p:first-child { color: var(--text); font-size: 1.12rem; }
 .fnf-card strong { color: var(--accent); }
