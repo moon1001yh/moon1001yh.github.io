@@ -1,6 +1,6 @@
 :root {
   color-scheme: dark;
-  --text: #f5f6fb; --muted: #27701E; --accent: #A8FF00;
+  --text: #f5f6fb; --muted: #b9bdcc; --accent: #A8FF00;
   --panel: rgba(19, 22, 34, .68); --line: rgba(255,255,255,.15);
 }
 * { box-sizing: border-box; }
