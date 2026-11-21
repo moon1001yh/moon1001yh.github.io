@@ -1,31 +1,118 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>★MOON★</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #031D5B;
-            padding: 100px 20px;
-        }
-
-        h1 {
-            text-shadow: -1px -1px #FFDD14, -1px 0 #FFDD14, -1px 1px #FFDD14, 0 1px #FFDD14, 1px 1px #FFDD14, 1px 0 #FFDD14, 1px -1px #FFDD14, 0 -1px #FFDD14;
-            color:#25701E;
-        }
-
-        p {
-            text-shadow: -1px -1px #FFDD14, -1px 0 #FFDD14, -1px 1px #FFDD14, 0 1px #FFDD14, 1px 1px #FFDD14, 1px 0 #FFDD14, 1px -1px #FFDD14, 0 -1px #FFDD14;
-            color:#25701E;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#031D5B">
+  <meta name="description" content="개인 포트폴리오 웹사이트">
+  <title>★MOON★'s Homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>★MOON★</h1>
-    <p>유튜버 ★MOON★의 공식 웹사이트입니다.</p>
+  <div class="background" aria-hidden="true"></div>
+  <div class="background-overlay" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Home">MY<span>.</span></a>
+    <div class="header-right">
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav-link active" data-page="home" type="button" data-i18n="navHome">Home</button>
+        <button class="nav-link" data-page="links" type="button" data-i18n="navLinks">Links</button>
+        <button class="nav-link" data-page="about" type="button" data-i18n="navAbout">About</button>
+      </nav>
+      <div class="language-switch" aria-label="Language">
+        <button class="lang-button active" data-lang="ko" type="button">KR</button>
+        <span aria-hidden="true">/</span>
+        <button class="lang-button" data-lang="en" type="button">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="page active" id="home" aria-labelledby="home-title">
+      <div class="profile-wrap">
+        <img class="profile-image" src="profile.png" alt="Profile photo">
+      </div>
+      <p class="eyebrow" data-i18n="welcome">WELCOME TO MY SPACE</p>
+      <h1 id="home-title"><span data-i18n="hello">안녕하세요,</span> <span class="name">홍길동</span><span data-i18n="suffix">입니다.</span></h1>
+      <p class="intro" data-i18n="intro">관심 있는 것을 탐구하고, 새로운 것을 만들어 갑니다.</p>
+      <button class="primary-button" type="button" data-go="about">
+        <span data-i18n="learnMore">더 알아보기</span> <span aria-hidden="true">↗</span>
+      </button>
+    </section>
+
+    <section class="page" id="links" aria-labelledby="links-title" hidden>
+      <p class="eyebrow" data-i18n="findOnline">FIND ME ONLINE</p>
+      <h2 id="links-title">My <span>Links</span></h2>
+      <p class="section-description" data-i18n="linksIntro">아래 링크를 통해 저의 온라인 공간을 방문할 수 있어요.</p>
+
+      <div class="link-list">
+        <!-- 아이콘 이미지를 icons 폴더에 넣고 src 경로를 수정하세요. -->
+        <a class="social-link" href="https://www.youtube.com/UC4oA1D2f_T266672tNEMVMw" target="_blank" rel="noopener noreferrer">
+          <img class="social-icon" src="icons/youtube.png" alt="">
+          <span class="social-copy"><strong>YouTube</strong><small data-i18n="youtubeDesc">★MOON★ (@Moon1001YH)</small></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="social-link" href="https://adofaiwiki.com/w/%E2%98%85MOON%E2%98%85" target="_blank" rel="noopener noreferrer">
+          <img class="social-icon" src="icons/cosmopedia.png" alt="">
+          <span class="social-copy"><strong>Cosmopedia</strong><small data-i18n="githubDesc">My Cosmopedia Page</small></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="social-link" href="https://tuforums.com/creator/937" target="_blank" rel="noopener noreferrer">
+          <img class="social-icon" src="icons/tuf.png" alt="">
+          <span class="social-copy"><strong>The Universal Forums</strong><small data-i18n="instagramDesc">My TUF Profile</small></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="social-link" href="https://chzzk.naver.com/20a15656220fdc19a7849d954ce53597" target="_blank" rel="noopener noreferrer">
+          <img class="social-icon" src="icons/steam.png" alt="">
+          <span class="social-copy"><strong>Steam</strong><small data-i18n="instagramDesc">My Steam Profile</small></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="social-link" href="https://chzzk.naver.com/20a15656220fdc19a7849d954ce53597" target="_blank" rel="noopener noreferrer">
+          <img class="social-icon" src="icons/chzzk.png" alt="">
+          <span class="social-copy"><strong>Chzzk</strong><small data-i18n="instagramDesc">Live Streaming (Also on YouTube!)</small></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <div class="other-links">
+        <h3 data-i18n="otherLinks">Other Links</h3>
+        <div class="icon-link-list">
+          <!-- 아래 링크는 아이콘만 표시됩니다. 이미지와 주소를 원하는 대로 추가하세요. -->
+          <a class="icon-link" href="https://x.com/Moon1001_" target="_blank" rel="noopener noreferrer" aria-label="X" title="X">
+            <img src="icons/x.png" alt="X">
+          </a>
+          <a class="icon-link" href="https://soundcloud.com/moon1001sans" target="_blank" rel="noopener noreferrer" aria-label="Soundcloud" title="Soundcloud">
+            <img src="icons/soundcloud.png" alt="Soundcloud">
+          </a>
+          <a class="icon-link" href="https://moon1001yh.bandcamp.com/" target="_blank" rel="noopener noreferrer" aria-label="Bandcamp" title="Bandcamp">
+            <img src="icons/bandcamp.png" alt="Bandcamp">
+          </a>
+          <a class="icon-link" href="https://moon1001yh.newgrounds.com/" target="_blank" rel="noopener noreferrer" aria-label="Newgrounds" title="Newgrounds">
+            <img src="icons/newgrounds.png" alt="Newgrounds">
+          </a>
+          <a class="icon-link" href="https://github.com/moon1001yh" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+            <img src="icons/github.png" alt="GitHub">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="about" aria-labelledby="about-title" hidden>
+      <p class="eyebrow" data-i18n="aboutEyebrow">A LITTLE ABOUT ME</p>
+      <h2 id="about-title">About <span>Me</span></h2>
+      <div class="about-card">
+        <p data-i18n="aboutGreeting">안녕하세요! 종합 게임 유튜버 <strong>★MOON★</strong>입니다!</p>
+        <p data-i18n="aboutText">저는 2022년 1월 23일부터 종합 게임 유튜버로서 활동중입니다! 현재는 A Dance of Fire and Ice라는 게임을 주 컨텐츠로 삼고 있습니다.</p>
+      </div>
+      <div class="about-card">
+        <p data-i18n="aboutGreeting">A Dance of Fire and Ice</p>
+        <p data-i18n="aboutText">얼불춤 포트폴리오</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">© <span id="year"></span> 홍길동. <span data-i18n="footer">호기심으로 만들었습니다.</span></footer>
 </body>
 </html>
